@@ -156,7 +156,7 @@ void RigidBody::advance(const float dt)
   updateOrientation(dt);
 
   //Add force and torque
-  applyForce(Vec2f(0, -0.1f), dt);
+  // applyForce(Vec2f(0, -0.1f), dt);
   applyTorque(0.0, dt);
   
 }
